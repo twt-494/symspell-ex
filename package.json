@@ -23,8 +23,7 @@
         "coverage": "nyc --reporter=text-lcov mocha --timeout 60000 -r ts-node/register test/**/*.spec.ts | coveralls"
     },
     "dependencies": {
-        "ioredis": "^4.27.3",
-        "megahash": "^1.0.5"
+        "ioredis": "^4.27.3"
     },
     "devDependencies": {
         "@commitlint/cli": "^16.2.1",

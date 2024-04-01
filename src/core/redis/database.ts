@@ -21,7 +21,7 @@ export class RedisConfig {
 
 export class Redis {
     _config: any;
-    _db: IoRedis.Redis;
+    _db: any;
     _isConnected = false;
 
     /**
